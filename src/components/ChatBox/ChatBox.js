@@ -8,10 +8,8 @@ import UserMessage from '../UserMessage/UserMessage';
 
 const ChatBox = () => {
 
-    // const message = ['Hi, how can I help you?']
-
     return (
-        <div className="m-5">
+        <div className="d-flex justify-content-center m-5">
             <div className="chat-box">
                 <div className="d-flex justify-content-between">
                     <MoreHorizIcon className="heading-icon" />
